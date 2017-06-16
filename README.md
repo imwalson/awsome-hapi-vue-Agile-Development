@@ -96,6 +96,6 @@
 
 在多个项目实践中沉淀出的一套CSS布局类，取众多优秀UI框架所长，舍弃多余或者用不到的部分之后的结果
 
-- [f7-grid.css](./http://framework7.taobao.org/docs/grid.html#.WUOFQT2cDIV)   framework7 框架的栅格部分修改版(增加了 `middle` 和 `large` 两种规格的响应式布局，分别对应“大于等于 992px”尺寸和“大于等于 1200px”尺寸的设备)
+- [f7-grid.css](/http://framework7.taobao.org/docs/grid.html#.WUOFQT2cDIV)   framework7 框架的栅格部分修改版(增加了 `middle` 和 `large` 两种规格的响应式布局，分别对应“大于等于 992px”尺寸和“大于等于 1200px”尺寸的设备)
 - [flex.css](./flex.md)   mobicss 框架的flexbox布局部分
 - [boot-grid.css](http://v3.bootcss.com/css/#grid)   bootstrap 框架的栅格部分
