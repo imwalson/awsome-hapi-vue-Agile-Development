@@ -1,9 +1,16 @@
 # awsome-hapi-vue-Agile-Development
-前后端分别基于 vue.js 和 hapi.js 的全栈敏捷开发技术栈
+前后端分别基于 vue.js 和 hapi.js 的全栈敏捷开发技术栈。<https://imwalson.github.io/awsome-hapi-vue-Agile-Development/>
 
 ---
 
 ## npm 包
+
+#### 相关总结
+- [awesome-npm-packages](https://github.com/sqrthree/awesome-npm-packages)  收集的一些非常好用的 npm package
+- [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)  Delightful Node.js packages and resources
+- [most depended-upon packages](https://www.npmjs.com/browse/depended)  npm 上使用最多的库
+- [node-daily](https://github.com/dailyNode/node-daily)  daily article for node
+- [node.js](https://github.com/youyudehexie/node123)  node.js中文资料导航
 
 #### hapi 框架及插件
 - [hapi框架](https://hapijs.com/api)  hapi.js后端框架主体
@@ -28,6 +35,7 @@
 - [knex](http://knexjs.org/)  bookshelf 的底层实现
 - [pg-promise](https://github.com/vitaly-t/pg-promise)  Promises 化的 PostgreSQL ORM
 - [dogwater](https://github.com/devinivy/dogwater)  Waterline ORM 的 hapi 封装插件
+- [json-sql](https://github.com/2do2go/json-sql)  用 json 描述 sql 语句
 
 
 #### SDK 封装
@@ -37,7 +45,9 @@
 
 #### 常用工具
 - [lodash](https://lodash.com/docs/)  数组操作函数工具库
+- [underscore.string](https://github.com/epeli/underscore.string)  字符串处理工具函数集
 - [moment](https://github.com/moment/moment)  时间日期处理
+- [delay](https://github.com/sindresorhus/delay)  在一定的时间内延迟执行 Promise
 - [bluebird](https://github.com/petkaantonov/bluebird)  promise 库
 - [superagent](https://github.com/visionmedia/superagent)  服务端 HTTP 请求库
 - [multiparty](https://github.com/pillarjs/multiparty)  表单文件上传库
