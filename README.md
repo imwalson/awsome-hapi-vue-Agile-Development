@@ -16,6 +16,7 @@
 - [hapi框架](https://hapijs.com/api)  hapi.js后端框架主体
 - [inert](https://github.com/hapijs/inert)  hapi 框架的静态文件服务框架
 - [vision](https://github.com/hapijs/vision)  hapi 的视图模板支持库
+- [nes](https://github.com/hapijs/nes)  hapi 官方的 WebSocket 库
 - [handlebars](https://github.com/wycats/handlebars.js)  js模板引擎 handlebars
 - [swig](https://github.com/node-swig/swig-templates)  js模板引擎 swig
 - [catbox-mongodb](https://github.com/hapijs/catbox-mongodb)  hapi 框架 MongoDB 缓存 Adapter
@@ -25,8 +26,13 @@
 - [h2o2](https://github.com/hapijs/h2o2)  hapi 的 Proxy 代理插件
 - [hapi-method-scheduler](https://github.com/firstandthird/hapi-method-scheduler)  执行定时任务，later.js 的hapi封装插件
 - [boom](https://github.com/hapijs/boom)  HTTP友好的 错误提示封装
+- [hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2)  JSON Web Tokens (JWT) 插件
 - [hapi-cache-buster](https://github.com/poeticninja/hapi-cache-buster)  防止静态资源缓存插件
 - [bedwetter](https://github.com/devinivy/bedwetter)  根据 Waterline 模型自动生成 RESTful api 路由
+- [hapi-named-routes](https://github.com/poeticninja/hapi-named-routes)  允许在视图模板里通过路由的ID来调用地址
+- [hapi-assets](https://github.com/poeticninja/hapi-assets)  实现在开发模式或部署模式启动时调用不同的静态资源
+- [hapi-socketio-redis-chat-example](https://github.com/dwyl/hapi-socketio-redis-chat-example)  hapi.js + Socket.io + Redis Pub/Sub 实现的 chat app
+
 
 #### 数据库操作
 - [mongoose](http://mongoosejs.com/docs/guide.html)  mongodb ORM
@@ -65,6 +71,7 @@
 
 #### 全局工具
 - [pm2](https://github.com/Unitech/pm2)  node 项目部署工具，自带守护进程
+- [nodemon](https://github.com/remy/nodemon)  node 另一个项目部署工具，代码变动时自动重启服务
 - [nvm](https://github.com/creationix/nvm)  node 版本切换
 - [n](https://github.com/tj/n)  node 版本切换,tj大神出品
 - [nrm](https://github.com/Pana/nrm)  node 镜像切换
@@ -99,3 +106,56 @@
 - [f7-grid.css](http://framework7.taobao.org/docs/grid.html#.WUOFQT2cDIV)   framework7 框架的栅格部分修改版(增加了 `middle` 和 `large` 两种规格的响应式布局，分别对应“大于等于 992px”尺寸和“大于等于 1200px”尺寸的设备)
 - [flex.css](./flex.md)   mobicss 框架的flexbox布局部分
 - [boot-grid.css](http://v3.bootcss.com/css/#grid)   bootstrap 框架的栅格部分
+
+#### 优秀UI框架和库
+- [bootstrap](http://www.bootcss.com/)   无需多言
+- [bootswatch](http://bootswatch.com/)   为 bootstrap 更换主题
+- [materializecss](http://materializecss.com/)   基于 Material Design 的现代响应式前端框架
+- [semantic](https://semantic-ui.com/)   经典的前端UI框架，语义化良好
+- [purecss](https://purecss.io/)   轻量级的css框架
+- [layui](http://www.layui.com/)   国产轻量级前端UI解决方案
+- [uikit](http://www.getuikit.net/)   综合素质不错的一款前端框架，模块化
+- [alloyui](http://alloyui.com/)   也是一款模块化的老牌ui框架，风格偏沉稳
+- [amazeui](http://amazeui.org/)   国产妹子 UI，移动端优先的UI框架
+- [sui](http://sui.taobao.org/sui/docs/)  淘宝团队出品的UI框架，契合淘宝的电商场景
+- [Material Design Lite](https://getmdl.io/components/index.html)   又一款Material Design的UI框架
+- [bulma](http://bulma.io/)   现代CSS框架，简洁美观、扁平化、模块化
+- [elf](https://jrainlau.github.io/elf/)   一个干净，轻巧的响应式现代CSS框架，基于flex布局
+- [typo](https://typo.sofi.sh/)   一致化浏览器排版效果，构建最适合中文阅读的网页排版
+- [wysiwyg](http://jgthms.com/wysiwyg.css/)   对Markdown生成的网页进行优雅的排版
+- [animate.css](https://daneden.github.io/animate.css/)   一款强大的预设css3动画库
+- [devices.css](http://marvelapp.github.io/devices.css/)   纯CSS编写的手机设备Mock Up模型
+- [transparent textures](https://www.transparenttextures.com/)   背景纹理生成
+
+#### 移动端的UI框架
+- [frozenui](http://frozenui.github.io/)   腾讯出品
+- [mui](http://dev.dcloud.net.cn/mui/)   最接近原生APP体验的高性能前端框架
+
+
+---
+
+## JS 插件
+
+#### 原生插件
+
+- [layer](http://layer.layui.com/)  优秀强大的web弹层组件
+- [sweetalert](http://t4t5.github.io/sweetalert/)  替代系统默认的呆板弹出框吧
+- [cookies.js](https://github.com/franciscop/cookies.js)  浏览器端操作 cookies 的插件
+- [es6-promise.js](https://github.com/stefanpenner/es6-promise)  浏览器端使用 Promise
+- [bricklayer](https://github.com/ademilter/bricklayer)   专门用于瀑布流布局的 js 库
+- [remodal](http://vodkabears.github.io/remodal/#)   简洁美观可定制的模态弹出组件
+- [classie](https://github.com/desandro/classie)  没必要为了使用JQ的选择器而引用整个JQ
+- [scrollup](https://markgoodyear.com/labs/scrollup/?theme=tab)  回到顶部按钮
+- [WOW](https://github.com/matthieua/WOW)  给页面滚动添加动感的动画效果，依赖animate.css
+- [fullPage.js](https://github.com/alvarotrigo/fullPage.js)  全屏滚动插件
+- [ctajs](http://kushagragour.in/lab/ctajs/)  带过渡效果的弹出框，谷歌Material Design风格
+- [slideout.js](https://slideout.js.org/)  Web 的触摸滑出式的侧边导航，仅4k
+- [shade](http://demo.htmleaf.com/1502/201502221549/index.html)  可视化CSS3渐变背景颜色代码生成插件
+- [device.js](https://github.com/matthewhudson/device.js)  判断设备类型
+- [lazysizes.js](https://github.com/aFarkas/lazysizes)  响应式图像延迟加载JS插件
+- [basket.js](https://github.com/addyosmani/basket.js)  使用localStore实现页面缓存静态资源
+
+#### JQuery插件
+
+- [scrollspy](https://github.com/sxalexander/jquery-scrollspy)  滚动监听
+- [kxbdMarquee](http://code.ciaoca.com/jquery/kxbdmarquee/)  kxbdMarquee 无缝滚动通知
